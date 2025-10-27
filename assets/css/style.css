@@ -34,12 +34,21 @@ main {
   position: relative;
   background: white;
   margin-top: 3rem;
+  display: flex;
+flex-direction: column;
+ box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-radius: 8px;
 }
 
 .pin {
   position: absolute;
   left: 45%;
   margin-top: -1.5rem;
+}
+
+.polaroid-body {
+  width: 90%;
+  align-self: center;
 }
 
 .polaroid-img img {
