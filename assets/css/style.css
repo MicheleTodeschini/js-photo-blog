@@ -21,6 +21,7 @@ h1 {
 main {
   margin-top: -1rem;
   background-image: url("../img/cork.png");
+   min-height: 100vh;  
 }
 
 .container {
