@@ -47,3 +47,11 @@ main {
   height: auto;
   display: block;
 }
+
+.polaroid-date {
+  font-family:  'Sometype Mono', 'monospace';
+}
+
+.polaroid-caption {
+  font-family:'Edu Tas Beginner', sans-serif;
+}
