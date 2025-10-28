@@ -82,6 +82,6 @@ flex-direction: column;
 /*Immagine Roteantre*/
 
 .foto-roteante:hover {
-  transform: rotate(30deg);
+  transform: rotate(25deg);
   transition: transform 0.3s ease-in; 
 }

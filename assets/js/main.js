@@ -15,7 +15,7 @@ fetch(url)
         polaroidsContainer.innerHTML = "";
         polaroids.forEach((polaroid) => {
           const elem = document.createElement("div");
-          elem.className = "col-4 d-flex";
+          elem.className = "col-4 d-flex foto-roteante";
           elem.innerHTML = `
             <div class=" flex-column polaroid">
             <div class="pin">
@@ -29,7 +29,7 @@ fetch(url)
             <div class="polaroid-body">
             <div class="polaroid-img">
               <img
-                src="${polaroid.url}" onclick="on()" class="foto-roteante"
+                src="${polaroid.url}" onclick="on()" 
               />
             </div>
            
