@@ -29,7 +29,7 @@ fetch(url)
             <div class="polaroid-body">
             <div class="polaroid-img">
               <img
-                src="${polaroid.url}" onclick="on()"
+                src="${polaroid.url}" onclick="on()" class="foto-roteante"
               />
             </div>
            
