@@ -19,12 +19,17 @@ fetch(url)
           elem.innerHTML = `
             <div class=" flex-column polaroid">
             <div class="pin">
-              <img src="./assets/img/pin.svg" alt="pin rosso" />
+              <img src="./assets/img/pin.svg"  alt="pin rosso" />
             </div>
+            <section id="overlay" onclick="off()">
+            <img
+                src="${polaroid.url}" //SI ROMPE QUI
+              />
+            </section>
             <div class="polaroid-body">
             <div class="polaroid-img">
               <img
-                src="${polaroid.url}"
+                src="${polaroid.url}" onclick="on()"
               />
             </div>
            
@@ -41,3 +46,11 @@ fetch(url)
 
 
   })
+
+function on() {
+  document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+  document.getElementById("overlay").style.display = "none";
+}
