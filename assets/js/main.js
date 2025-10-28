@@ -21,7 +21,8 @@ fetch(url)
             <div class="pin">
               <img src="./assets/img/pin.svg"  alt="pin rosso" />
             </div>
-            <section id="overlay" onclick="off()">
+            <section id="overlay">
+            <button id="btn" onclick="off()">Chiudi</button>
             <img
                 src="${polaroid.url}" //SI ROMPE QUI
               />

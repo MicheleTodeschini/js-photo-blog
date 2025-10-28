@@ -9,6 +9,7 @@ body {
   min-height: 100vh;
 }
 
+
 header {
   background-image: url(../img/wall.png);
 }
@@ -70,13 +71,19 @@ flex-direction: column;
 #overlay {
   position: absolute;
   display: none;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   z-index: 2;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+}
+
+#overlay img {
+  width: 350%;
+  height: 250%;
 }
 
 /*Immagine Roteantre*/
@@ -84,4 +91,8 @@ flex-direction: column;
 .foto-roteante:hover {
   transform: rotate(10deg) scale(1.10);
   transition: transform 0.3s ease-in; 
+}
+
+.btn {
+  align-items: center;
 }
